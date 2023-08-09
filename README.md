@@ -56,7 +56,13 @@ JSON jar in your classpath.I attached JSON jar in MarkUs Submittion, you can eit
 add it through Intellj IDEA->File->Project Structure->Modules->Dependencies->click"+", apply the JSON jar.
 
 The project also utilizes a JUnit library for handling Test data. Make sure to include the necessary
-JSON jar in your classpath.
+JUnit jar in your classpath.
+Right-click your project and choose "Open Module Settings" or hit F4. 
+(Alternatively, File > Project Structure, Ctrl-Alt-Shift-S is probably the "right" way to do this)
+Go to the "Libraries" group, click the little green plus (look up), and choose "From Maven...".
+Search for "junit" -- you're looking for something like "junit:junit:4.11".
+Check whichever boxes you want (Sources, JavaDocs) then hit OK.
+Keep hitting OK until you're back to the code.
 
 
 ---
