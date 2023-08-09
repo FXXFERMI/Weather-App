@@ -64,6 +64,10 @@ Search for "junit" -- you're looking for something like "junit:junit:4.11".
 Check whichever boxes you want (Sources, JavaDocs) then hit OK.
 Keep hitting OK until you're back to the code.
 
+If this still not working, to download the jar from: https://jar-download.com/artifacts/org.junit.jupiter/junit-jupiter-api
+(Download version5.8.1)And add the jar through Intellj IDEA->File->Project Structure->Modules->Dependencies->click"+", 
+apply the junit.jar, junit-jupiter-api-5.8.1.jar,junit-platform-commons-1.8.1.jar.
+
 
 ---
 For detailed implementation and code discussions, refer to the conversation log.
