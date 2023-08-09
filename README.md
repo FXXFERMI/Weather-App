@@ -52,11 +52,12 @@ However, some areas were identified for improvement, such as:
 ## JSON Library AND JUnit Library
 
 The project utilizes a JSON library for handling JSON data. Make sure to include the necessary
-JSON jar in your classpath.
-The project utilizes a JUnit library for handling Test data. Make sure to include the necessary
+JSON jar in your classpath.I attached JSON jar in MarkUs Submittion, you can either download it from the MarkUs Submittion or through this link:https://mvnrepository.com/artifact/org.json/json/20140107
+add it through Intellj IDEA->File->Project Structure->Modules->Dependencies->click"+", apply the JSON jar.
+
+The project also utilizes a JUnit library for handling Test data. Make sure to include the necessary
 JSON jar in your classpath.
 
-I also attached these two jar in MarkUs Submittion.
 
 ---
 For detailed implementation and code discussions, refer to the conversation log.
