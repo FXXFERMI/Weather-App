@@ -1,5 +1,9 @@
 # WeatherApp README
 
+## Code Numbers
+I calculated the number of code manually, there are totally 994 lines(less than 1000) inside main and test package.
+
+
 ## Summary
 WeatherApp is a Java application that displays current weather information,
 generates weather-based reminders, and allows users to create and manage daily to-do lists.
@@ -45,12 +49,15 @@ However, some areas were identified for improvement, such as:
 - Tight coupling between Interactor and Data Provider (Addressed using Dependency Inversion Principle).
 - Incomplete application of Dependency Inversion Principle in some parts of the code (Improved in later versions).
 
-## JSON Library
+## JSON Library AND JUnit Library
 
 The project utilizes a JSON library for handling JSON data. Make sure to include the necessary
 JSON jar in your classpath.
+The project utilizes a JUnit library for handling Test data. Make sure to include the necessary
+JSON jar in your classpath.
+
+I also attached these two jar in MarkUs Submittion.
 
 ---
-I calculated the number of code manually, there are totally 994 lines(less than 1000) inside main and test package.
 For detailed implementation and code discussions, refer to the conversation log.
 
