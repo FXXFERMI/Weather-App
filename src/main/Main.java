@@ -21,7 +21,7 @@ public class Main {
      * @param args Command line arguments (not used).
      */
     public static void main(String[] args) {
-        String userName = "Sharon Hu"; // Replace with user's name
+        String userName = "Solar Kim"; // Replace with user's name
 
         SwingUtilities.invokeLater(() -> {
             // Initialize WeatherDataProvider with OpenWeatherMapProvider
